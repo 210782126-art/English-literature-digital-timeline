@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Timeline from Jupiter</title> <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+ 
+    <div class="header-title">
+        Moral Topic in English Literature </div>
+    <div class="header-email">
+        Author: Jupiter Pu (JUPITERasassn7@gmail.com)</div>
+
+    <div class="timeline-container">
+        <div class="timeline">
+            <div class="timeline-node" data-index="1">
+                <span class="node-label">Oliver Twist (1837)</span>
+            </div>
+            <div class="timeline-node" data-index="2">
+                <span class="node-label">The Importance of Being Earnest (1894)</span>
+            </div>
+            <div class="timeline-node" data-index="3">
+                <span class="node-label">Lord of the Flies (1954)</span>
+            </div>
+            <div class="timeline-node" data-index="4">
+                <span class="node-label">Klara and the Sun (2021)</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-display">
+        <p id="initial-message">Click on a timeline point above to explore the literary work.</p >
+        
+        <div id="content-box" class="hidden">
+            <img id="display-image" src="" alt="Book Cover Image">
+            <div id="display-text">
+                <h2 id="content-title"></h2>
+                <p id="content-text"></p >
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+<button id="ref-btn">References</button>
+<!-- References 弹窗 -->
+<div id="ref-overlay" class="hidden">
+  <div id="ref-modal">
+    <h2>References</h2>
+
+<ul class="ref-list">
+  <li>
+    Du Jun. “The Development of the Ethic Topic in Modern English Literature.”
+    <i>Journal of Huzhou Teachers College</i>, vol. 26, no. 1, 2004, pp. 24–28.
+  </li>
+   
+<li>
+    Dickens, Charles. <i>Oliver Twist</i>. Edited by Philip Horne, Penguin Classics, 2003. 
+</li>
+
+  <li>
+    Shanzhi Lan. “The Gothic Aesthetic Style in <i>Oliver Twist</i> and Dickens’s Moral Reconstruction.”
+    <i>Masterpieces Review</i>, no. 36, 2015, pp. 104–105. CNKI.
+  </li>
+
+  <li>
+    Xiyan Feng. “The Reconstruction of Morality Through Narrative: A Case Study of
+    <i>The Importance of Being Earnest</i>.”
+    <i>Journal of Shenyang Institute of Engineering (Social Sciences Edition)</i>,
+    vol. 11, no. 4, 2015, pp. 523–526.
+  </li>
+
+  <li>
+    Ishiguro, Kazuo. <i>Klara and the Sun</i>.Faber and Faber, 2021.
+  </li>
+</ul>
+
+<button id="close-ref">Close</button>  </div>
+</div>
+</body>
+</html>
